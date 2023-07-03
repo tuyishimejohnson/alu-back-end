@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+    python script that returns TODO list progress for a given employee ID
+"""
 import json
 import requests
 from sys import argv
@@ -14,7 +16,7 @@ if __name__ == "__main__":
     """
         convert json to dictionary
     """
-BOB    employee = json.loads(request_employee.text)
+    employee = json.loads(request_employee.text)
     """
         extract employee name
     """
